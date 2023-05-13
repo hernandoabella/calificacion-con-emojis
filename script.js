@@ -1,6 +1,6 @@
 const starsEl = document.querySelectorAll(".fa-star");
 const emojisEl = document.querySelectorAll(".far");
-const colorsArray = ["red", "orange", "#54b1d0", "#4ebf4e", "green"];
+const colorsArray = ["#F87060", "#FFAD60", "#FFD35C", "#B7E267", "#54B1D0"];
 
 updateRating(0);
 
