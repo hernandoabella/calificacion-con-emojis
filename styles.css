@@ -41,9 +41,14 @@
 .fa-star {
   color: #d4d4d4;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .fa-star.active {
+  color: gold;
+}
+
+.fa-star:hover {
   color: gold;
 }
 
