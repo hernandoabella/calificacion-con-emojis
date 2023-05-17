@@ -31,7 +31,7 @@ body {
 }
 
 .far {
-  margin: 1px;
+  margin: 1.7px;
   transform: translateX(0);
   transition: transform 0.2s;
 }
