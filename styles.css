@@ -57,15 +57,3 @@ body {
 .fa-star:hover {
   color: gold;
 }
-
-@media screen and (max-width: 768px) {
-  .container {
-    width: 90vw;
-    max-width: 90%;
-  }
-
-  .rating-container {
-    width: 80%;
-    text-align: center;
-  }
-}
