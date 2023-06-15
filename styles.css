@@ -1,5 +1,10 @@
 body {
-  background-color: rgba(50, 150, 200, 0.75);
+  background: linear-gradient(270deg, #3296c8, #727eff);
+  background-size: 400% 400%;
+  -webkit-animation: animacionFondo 6s ease infinite;
+  -moz-animation: animacionFondo 6s ease infinite;
+  -o-animation: animacionFondo 6s ease infinite;
+  animation: animacionFondo 6s ease infinite;
 }
 
 .container {
@@ -22,38 +27,39 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 28%;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  top: 80px;
+  width: 240px;
   display: flex;
-  overflow: hidden;
+  justify-content: space-between;
 }
 
-.far {
-  margin: 1.7px;
-  transform: translateX(0);
-  transition: transform 0.2s;
+.emoji {
+  width: 32px;
+  height: 32px;
 }
 
 .rating-container {
   position: absolute;
-  transform: translate(-50%, -50%);
   left: 50%;
-  top: 70%;
-  width: 62%;
-}
-
-.fa-star {
-  color: #d4d4d4;
-  cursor: pointer;
-  transition: 0.3s;
+  transform: translateX(-50%);
+  top: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .fa-star.active {
-  color: gold;
+  color: #fbbf24;
+  transition: color 0.3s;
 }
 
-.fa-star:hover {
-  color: gold;
+@keyframes animacionFondo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
