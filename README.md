@@ -2,12 +2,12 @@
 
 Esta aplicación te permite calificar de manera divertida utilizando emojis y guarda la calificación en el LocalStorage.
 
-Características del proyecto
-Diseño con fondo colorido y animaciones atractivas.
-Muestra una selección de emojis para representar diferentes calificaciones.
-Permite cambiar la calificación con botones intuitivos y dinámicos.
-La calificación se guarda automáticamente en el LocalStorage.
-Interfaz de usuario moderna, agradable a la vista y fácil de usar.
+Características del proyecto 📝
+- Diseño con fondo colorido y animaciones atractivas.
+- Muestra una selección de emojis para representar diferentes calificaciones.
+- Permite cambiar la calificación con botones intuitivos y dinámicos.
+- La calificación se guarda automáticamente en el LocalStorage.
+- Interfaz de usuario moderna, agradable a la vista y fácil de usar.
 
 ## Tecnologías utilizadas 🛠️
 - HTML
