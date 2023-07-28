@@ -1,10 +1,5 @@
 body {
-  background: linear-gradient(270deg, #3296c8, #727eff);
-  background-size: 400% 400%;
-  -webkit-animation: animacionFondo 6s ease infinite;
-  -moz-animation: animacionFondo 6s ease infinite;
-  -o-animation: animacionFondo 6s ease infinite;
-  animation: animacionFondo 6s ease infinite;
+  
 }
 
 .container {
@@ -13,34 +8,31 @@ body {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
-  width: 320px;
-  height: 250px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
+  padding: 20px;
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: center;
 }
 
 .emoji {
   width: 64px;
   height: 64px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 38%;
   user-select: none;
 }
 
 .rating-container {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 50px;
   display: flex;
   justify-content: space-around;
   width: 220px;
+  margin-top: 30px;
 }
 
 .fa-star {
@@ -55,52 +47,4 @@ body {
 
 .fa-star:hover {
   color: #fbbf24;
-}
-
-@-webkit-keyframes animacionFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@-moz-keyframes animacionFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@-o-keyframes animacionFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes animacionFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
